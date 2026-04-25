@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: poppins, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+nav {
+    margin-left: 20.4rem;
+    background: transparent;
+    display: flex;
+    right: 0;
+    position: absolute;
+    border-bottom: 0.4 0 0 5px #00c6ff, 0 0 15px #00c6ff, 0 0 30px #0072ff;
+    border-radius: 4px;
+    width: 65rem;
+    margin-top: -4.5rem;
+    text-align: center;
+    gap: 8rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.4px);
+    font-size: 21px;
+    padding: 9px;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    border-radius: 8px;
+    box-shadow:  0 0 5px #00c6ff, 0 0 15px #00c6ff, 0 0 30px #0072ff;
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.nama {
+    font-size: 30px;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    text-shadow: 0 0 5px #00c6ff, 0 0 15px #00c6ff, 0 0 30px #0072ff;
+}
+
+.logo {
+    color: white;
+}
+
+span {
+    color: rgb(2, 9, 22)
+}
+
+.logo:hover {
+    text-shadow: 0 0 10px #001f5c, 0 0 20px #002a80, 0 0 40px #0a1aff;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logohome {
+    margin-left: 63vw ;
+    background: transparent;
+    margin-top: 13rem;
+    display: flex;
+}
+
+img {
+    background: transparent;
+    border-radius: 50%;
+    width: 33vw;
+    box-shadow: 0 0 5px #00c6ff, 0 0 15px #00c6ff, 0 0 30px #0072ff;
+}
+
+@media(max-width:360px){
+    nav {
+        display: flex;
+        font-size: 10px;
+        gap: 2rem;
+        width: 20rem;
+        margin-top: -30px;
+    }
+
+    .nama {
+        display: flex;
+        font-size: 17px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .logohome {
+        display: flex;
+        margin-left: 13rem;
+    }
+}
